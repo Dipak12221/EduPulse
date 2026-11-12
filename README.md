@@ -1,16 +1,28 @@
-# React + Vite
+# EduPulse – Cloud School & Coaching Management SaaS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Website:** https://edupulse-ochre.vercel.app/
 
-Currently, two official plugins are available:
+## Overview & Design Choices
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I designed a clean, light-themed interface focused on readability and clear visual hierarchy for school administrators. Using Tailwind's responsive grid and flexbox utilities, the layout adapts smoothly across desktop and mobile devices, featuring a collapsible mobile navigation menu. I implemented smooth scrolling for section links and client-side form validation with an interactive confirmation state.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React.js (Vite)
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Responsive Navbar:** Sticky header with smooth-scroll links and a mobile hamburger menu.
+- **Hero & Dashboard Preview:** Clear value proposition with an interactive admin overview card.
+- **Core Modules:** Highlighted features for Automated Fee Receipts, Smart Marksheet Engine, and Digital Notice Board.
+- **How It Works & Pricing:** 3-step onboarding flow and transparent Coaching/School plans.
+- **Interactive Demo Form:** Client-side input validation with an instant confirmation message.
+
+## How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dipak12221/EduPulse.git
+   ```
